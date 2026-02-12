@@ -1,0 +1,449 @@
+{
+  "openlabel": {
+    "metadata": {
+      "schema_version": "1.0.0",
+      "frame_id": "134"
+    },
+    "objects": {
+      "car19_bbox0": {
+        "name": "car19",
+        "type": "Car",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "car19_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                144.51500000000001,
+                1282.815,
+                288.17,
+                261.97
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0.6
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ],
+                "text": [
+                  {
+                    "name": "label",
+                    "val": "Car"
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "car19_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                4.524542133375304,
+                14.325991315001431,
+                -2.5222883876599287,
+                -0.05050783319542037,
+                -0.3793910272463067,
+                2.5822568448567296,
+                4.781584620472679,
+                2.009615426867795,
+                1.5362266575834727
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "car19_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num",
+              "label": "text"
+            }
+          },
+          "car19_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      },
+      "motorcycle20_bbox0": {
+        "name": "motorcycle20",
+        "type": "Motorcycle",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "motorcycle20_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "motorcycle20_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                9.10226520907859,
+                -11.529120571106585,
+                0.6432542695736815,
+                -0.014027531771414931,
+                -0.3984145347557938,
+                -2.6358485763626507,
+                2.3116731634525345,
+                0.9288222970809902,
+                1.63
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "motorcycle20_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num"
+            }
+          },
+          "motorcycle20_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      },
+      "motorcycle21_bbox0": {
+        "name": "motorcycle21",
+        "type": "Motorcycle",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "motorcycle21_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "motorcycle21_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                14.571703563273,
+                -8.552588707883016,
+                2.806204607489267,
+                -0.06090464238816541,
+                -0.40334913718370846,
+                -2.5671826408208953,
+                2.132096892266094,
+                0.9288222970809902,
+                1.63
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "motorcycle21_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num"
+            }
+          },
+          "motorcycle21_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      },
+      "bicycle3_bbox0": {
+        "name": "bicycle3",
+        "type": "Bicycle",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "bicycle3_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "bicycle3_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                4.084711341888772,
+                -6.144567053541338,
+                -1.5342977754778284,
+                -0.00544002913141967,
+                -0.37998604767603783,
+                -0.9188344760506204,
+                2.089715266947086,
+                1.0613376426419419,
+                1.82051104598372
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "bicycle3_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num"
+            }
+          },
+          "bicycle3_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      },
+      "car5_bbox0": {
+        "name": "car5",
+        "type": "Car",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "car5_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "car5_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                3.4358031272310328,
+                -15.742868164960672,
+                -1.7657491490342785,
+                -0.008771222780808472,
+                -0.4359669217657823,
+                -2.5597598656802507,
+                4.43,
+                1.97,
+                1.63
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "car5_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num"
+            }
+          },
+          "car5_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      },
+      "car9_bbox0": {
+        "name": "car9",
+        "type": "Car",
+        "object_data": {
+          "bbox": [
+            {
+              "name": "car9_bbox0",
+              "coordinate_system": "camera",
+              "val": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "truncated",
+                    "val": 0
+                  },
+                  {
+                    "name": "occluded",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ],
+          "cuboid": [
+            {
+              "name": "car9_bbox0_cuboid",
+              "coordinate_system": "camera",
+              "val": [
+                -0.6793222140067974,
+                8.723950300628484,
+                -4.098792685527442,
+                -0.04804174887173742,
+                -0.376787399155241,
+                -0.5946209167429162,
+                4.204492476902842,
+                1.8721137481355932,
+                1.5810568740677964
+              ],
+              "attributes": {
+                "num": [
+                  {
+                    "name": "alpha",
+                    "val": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "car9_bbox0": {
+            "type": "bbox",
+            "frame_intervals": [],
+            "attributes": {
+              "truncated": "num",
+              "occluded": "num"
+            }
+          },
+          "car9_bbox0_cuboid": {
+            "type": "cuboid",
+            "frame_intervals": [],
+            "attributes": {
+              "alpha": "num"
+            }
+          }
+        }
+      }
+    }
+  }
+}

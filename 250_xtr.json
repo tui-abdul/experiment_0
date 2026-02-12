@@ -1,0 +1,880 @@
+{
+    "version": "Xtreme1 v0.6",
+    "dataId": 0,
+    "sourceName": "Ground Truth",
+    "classificationValues": null,
+    "objects": [
+        {
+            "id": "37300148-c3f7-46f9-8b21-5e2effca186c",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "b82b7e12-040b-4496-858d-c6a0125ad087",
+            "trackName": "car10_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "191dc48c-8cb0-4d4c-bcb7-5c8f7e85d7a0",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "b82b7e12-040b-4496-858d-c6a0125ad087",
+            "trackName": "car10_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.473884228344343,
+                    "y": 1.9032593737288133,
+                    "z": 1.6967406262711864
+                },
+                "center3D": {
+                    "x": 29.021494228320165,
+                    "y": -15.54243898895836,
+                    "z": 9.015515126366166
+                },
+                "rotation3D": {
+                    "x": -0.050195229490470644,
+                    "y": -0.38184603358309566,
+                    "z": -0.5451273328961843
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "a77f4746-a5fd-41ab-96a6-b467edddb403",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "04e5a1ff-8905-4343-9271-760489038016",
+            "trackName": "car11_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "a90298a8-7e24-43f3-93a2-6e73c4f014bf",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "04e5a1ff-8905-4343-9271-760489038016",
+            "trackName": "car11_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 3.9396371578458513,
+                    "y": 1.899354513166939,
+                    "z": 1.63
+                },
+                "center3D": {
+                    "x": 42.64728436773532,
+                    "y": -24.422441397027505,
+                    "z": 15.055983736606427
+                },
+                "rotation3D": {
+                    "x": -0.05774500894565191,
+                    "y": -0.3675922922629668,
+                    "z": -0.5652488264420161
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "748eccbf-0af0-428d-8fe3-58fbc46793ff",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "61c34082-3128-49c1-a869-7c945b158069",
+            "trackName": "car12_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "bb3fe7c5-edb4-4414-955a-8ec120ceadf9",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "61c34082-3128-49c1-a869-7c945b158069",
+            "trackName": "car12_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.041529400923405,
+                    "y": 1.773489271482896,
+                    "z": 1.463721691254758
+                },
+                "center3D": {
+                    "x": 18.957996230444323,
+                    "y": -8.961276404745444,
+                    "z": 4.511041848778506
+                },
+                "rotation3D": {
+                    "x": -0.06034047202687015,
+                    "y": -0.37469455807124225,
+                    "z": -0.5756297555188714
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "5c0fcd9f-2f88-4594-9bf3-eb62a49b7840",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "fd5be617-8dc6-462a-b5a1-f0eda2bd4066",
+            "trackName": "car14_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0.7",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 2297.8999999999996,
+                        "y": 763.3999999999999
+                    },
+                    {
+                        "x": 2297.8999999999996,
+                        "y": 1300.8
+                    },
+                    {
+                        "x": 2600.0,
+                        "y": 1300.8
+                    },
+                    {
+                        "x": 2600.0,
+                        "y": 763.3999999999999
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "c08da60d-a2ca-4e57-b40b-130d3328482d",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "fd5be617-8dc6-462a-b5a1-f0eda2bd4066",
+            "trackName": "car14_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0.7",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.328513274129572,
+                    "y": 1.9397675802281378,
+                    "z": 1.63
+                },
+                "center3D": {
+                    "x": 8.131968410856272,
+                    "y": -1.3335242035963322,
+                    "z": -0.15878086304232678
+                },
+                "rotation3D": {
+                    "x": -0.058340913309606286,
+                    "y": -0.3625735363599289,
+                    "z": -0.5773537730273776
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "9f21c2e3-5ab3-4a10-a6ce-2e46788eb9c3",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "bad29c65-d066-4dc3-91ac-885ae6aee611",
+            "trackName": "car15_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "1",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 835.5,
+                        "y": 767.6199999999999
+                    },
+                    {
+                        "x": 835.5,
+                        "y": 1139.4
+                    },
+                    {
+                        "x": 1446.6,
+                        "y": 1139.4
+                    },
+                    {
+                        "x": 1446.6,
+                        "y": 767.6199999999999
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "f2de7373-5e9e-4861-9af3-2796b4ba0e0d",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "bad29c65-d066-4dc3-91ac-885ae6aee611",
+            "trackName": "car15_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "1",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.607601770273247,
+                    "y": 1.97,
+                    "z": 1.63
+                },
+                "center3D": {
+                    "x": 9.955867199424727,
+                    "y": 7.819810209733408,
+                    "z": 0.09973831451680933
+                },
+                "rotation3D": {
+                    "x": -0.056460470021585316,
+                    "y": -0.3794667705208646,
+                    "z": 2.559219344385093
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "cf370974-c267-434f-b9a6-d1ca0c98f21f",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "dad3b547-73c5-4cc2-b78c-03f86f644f43",
+            "trackName": "car16_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0.7",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 2516.5,
+                        "y": 201.38
+                    },
+                    {
+                        "x": 2516.5,
+                        "y": 327.98
+                    },
+                    {
+                        "x": 2600.0,
+                        "y": 327.98
+                    },
+                    {
+                        "x": 2600.0,
+                        "y": 201.38
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "6a7e0901-f64f-413e-9a90-dbbda93be92f",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "dad3b547-73c5-4cc2-b78c-03f86f644f43",
+            "trackName": "car16_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0.7",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.184402123393566,
+                    "y": 1.8793027406844136,
+                    "z": 1.5544189505703445
+                },
+                "center3D": {
+                    "x": 32.48705130171382,
+                    "y": -3.2432644422455112,
+                    "z": 9.691539638590744
+                },
+                "rotation3D": {
+                    "x": -0.04207382076463337,
+                    "y": -0.3849636474095083,
+                    "z": 2.60528946134028
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "46cebe06-a90a-4988-9d69-5ce03a552da5",
+            "type": "2D_RECT",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "13f33405-b99e-4086-8717-a92d8a7dde2e",
+            "trackName": "car24_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "8c3658e1-4694-4baa-b77c-ea84e905bba4",
+            "type": "3D_BOX",
+            "classId": 73,
+            "className": "Car",
+            "trackId": "13f33405-b99e-4086-8717-a92d8a7dde2e",
+            "trackName": "car24_bbox0",
+            "classValues": [
+                {
+                    "id": "9cba7825-8069-4970-b3c7-f1326dcbee50",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "e03fcf61-0ece-486e-a717-2af3b1afafbf",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 4.237731659696039,
+                    "y": 1.97,
+                    "z": 1.6028367705843827
+                },
+                "center3D": {
+                    "x": 34.09328047033269,
+                    "y": -11.399646635544755,
+                    "z": 10.850347011981368
+                },
+                "rotation3D": {
+                    "x": -0.04643042533632189,
+                    "y": -0.3824625973031051,
+                    "z": 2.580908591945896
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Car"
+        },
+        {
+            "id": "f55ae8b0-4fc1-4e0e-b948-1a04265da033",
+            "type": "2D_RECT",
+            "classId": 71,
+            "className": "Bicycle",
+            "trackId": "35962ec1-bcfb-49d0-86b6-81bbafeedc8d",
+            "trackName": "bicycle3_bbox0",
+            "classValues": [
+                {
+                    "id": "62a7a994-6d7c-4294-a1bf-310431bbfe4d",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "7f90c2a2-6ffe-400c-8e0e-a5ba4044cac5",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "points": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                ],
+                "size3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "center3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "viewIndex": 0,
+                "rotation3D": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Bicycle"
+        },
+        {
+            "id": "48d768cf-7bf3-4ecd-8679-704001d82e7a",
+            "type": "3D_BOX",
+            "classId": 71,
+            "className": "Bicycle",
+            "trackId": "35962ec1-bcfb-49d0-86b6-81bbafeedc8d",
+            "trackName": "bicycle3_bbox0",
+            "classValues": [
+                {
+                    "id": "62a7a994-6d7c-4294-a1bf-310431bbfe4d",
+                    "name": "truncated",
+                    "type": "TEXT",
+                    "alias": "truncated",
+                    "value": "0",
+                    "isLeaf": true
+                },
+                {
+                    "id": "7f90c2a2-6ffe-400c-8e0e-a5ba4044cac5",
+                    "name": "occluded",
+                    "type": "TEXT",
+                    "alias": "occluded",
+                    "value": "0",
+                    "isLeaf": true
+                }
+            ],
+            "contour": {
+                "size3D": {
+                    "x": 2.089715266947086,
+                    "y": 1.0613376426419419,
+                    "z": 1.82051104598372
+                },
+                "center3D": {
+                    "x": 25.29488211245702,
+                    "y": -22.529341308328387,
+                    "z": 8.135736028511834
+                },
+                "rotation3D": {
+                    "x": -0.07691282066216817,
+                    "y": -0.38769319471709207,
+                    "z": -0.3654322293267334
+                }
+            },
+            "modelConfidence": null,
+            "modelClass": "Bicycle"
+        }
+    ]
+}
