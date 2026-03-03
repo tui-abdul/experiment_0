@@ -28,6 +28,8 @@ TYPE_MAP = {
     "Pedestrian": "Pedestrian"
 }
 
+POINT_CLOUD_RANGE = [-40, -40, -5, 40, 40, 1]
+
 DIFFICULTY = "Easy"  # Placeholder, can be determined based on truncated/occluded values if needed
 
 # Rotation matrices
@@ -43,6 +45,7 @@ rotation_matrix_pole_b = np.array([
     [3.85413966e-01, 1.18343976e-03, 9.22743017e-01]
 ])
 
+ALLOWED_WEATHER = ["heavy_rain","moderate_rain","light_rain", "cloudy","sunny","night"]  # Example filter for weather conditions
 
 # =========================
 # UTILITY FUNCTIONS
@@ -139,25 +142,53 @@ def get_difficulty(truncated, occluded):
         return "Hard"
     return None
 
+def xtreme1_to_kitti_all_angles(
+    extracted_boxes,
+    rotation_matrix,
+    output_path,
+    point_cloud_range=POINT_CLOUD_RANGE
+):
+    """
+    Filters labels whose centers fall outside POINT_CLOUD_RANGE.
+    Range format:
+        [xmin, ymin, zmin, xmax, ymax, zmax]
+    """
 
-def xtreme1_to_kitti_all_angles(extracted_boxes, rotation_matrix,output_path):
+    xmin, ymin, zmin, xmax, ymax, zmax = point_cloud_range
     lines = []
+
     output_path = os.path.splitext(output_path)[0] + ".npy"
+
     for box in extracted_boxes:
+
         obj_type = TYPE_MAP.get(box['className'], None)
         if obj_type is None:
-            continue 
-        if box['center3D']['x'] == 0 and box['center3D']['y'] == 0 and box['center3D']['z'] == 0:    
             continue
-        #if get_difficulty(box['truncated'], box['occluded']) is not DIFFICULTY:
-        #    #print(f"Skipping track {box['trackId']} due to difficulty mismatch.",get_difficulty(box['truncated'], box['occluded']) )
-        #    continue
+
+        # Skip invalid zero center
+        if (box['center3D']['x'] == 0 and
+            box['center3D']['y'] == 0 and
+            box['center3D']['z'] == 0):
+            continue
+
         pos = box['center3D']
         rot = box['rotation3D']
         scale = box['size3D']
+
         yaw, center = transform_bbox(rotation_matrix, rot, pos)
-        line = f"{center[0]} {center[1]} {center[2]} {scale['x']} {scale['y']} {scale['z']} {yaw} {obj_type}"
+        x, y, z = center
+
+        # -----------------------------
+        # 3D Range Filtering
+        # -----------------------------
+        if not (xmin <= x <= xmax and
+                ymin <= y <= ymax and
+                zmin <= z <= zmax):
+            continue
+
+        line = f"{x} {y} {z} {scale['x']} {scale['y']} {scale['z']} {yaw} {obj_type}"
         lines.append(line)
+
     return lines
 
 
@@ -513,16 +544,17 @@ def process_dataset():
         for weather_dir in SOURCE_ROOT.iterdir():
             if not weather_dir.is_dir():
                 continue
-              
+            if weather_dir.name not in ALLOWED_WEATHER:
+                continue
             # sequence_0, sequence_1, ...
             for sequence_dir in weather_dir.iterdir():
                 if not sequence_dir.is_dir():
-                    continue
-                    
+                    continue    
                 # scene_x_weather_sequence_x
                 for scene_dir in sequence_dir.iterdir():
                     if not scene_dir.is_dir():
                         continue
+
                     # extract second index from scene name
                     scene_idx = int(scene_dir.name.split('_')[1])
                     camera_dir = scene_dir / f"camera_image_{scene_idx}"
